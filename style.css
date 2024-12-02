@@ -1,0 +1,43 @@
+h1{
+  text-align: center;
+}
+.todo_input{
+  display: flex;
+  justify-content: center;
+}
+input{
+  padding: 10px;
+  border: 2px solid black;
+  margin-right: 10px;
+  width: 300px;
+}
+.todo_input button{
+  background-color: rgb(255, 187, 0);
+  border: 2px solid goldenrod;
+}
+.todo_input button:hover{
+  background-color: rgb(128, 104, 39);
+}
+.todo_items{
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.todo_items button{
+  padding:10px;
+  width: 100px;
+}
+.todo_items p{
+  max-width: 200px;
+}
+.todo_items button:first-of-type{
+  border: 2px solid black;
+  background-color: red;
+  color: white; 
+}
+.todo_items button:nth-of-type(2){
+  background-color: rgb(189, 111, 8);
+  color: white;
+  border: 2px solid black;
+}
